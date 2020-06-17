@@ -1,0 +1,118 @@
+title: "Image Sizes"
+description: |
+  If you want the full photo, resize it to the same dimensions as the placeholder, otherwise it will be cut off
+
+patterns:
+
+  img-flex:
+    title: "Image Flex"
+    description: |
+      Use this for images that don't fit into a specific ratio
+    fields:
+      - name: image
+        type: url
+        example: "/images/2by3.png"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
+    width: "80%"
+
+  image1by1:
+    title: "1by1"
+    description: |
+      Use this type for square images
+    fields:
+      - name: image
+        type: url
+        example: "/images/placeholder-1by1.svg"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
+    width: "80%"
+    height: 100%;
+
+  image2by3:
+    title: "image2by3"
+    description: |
+      Use this type for portrait images
+    fields:
+      - name: image
+        type: url
+        example: "/images/2by3.png"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
+    width: "80%"
+
+  image3by1:
+    title: "image3by1"
+    description: |
+      Use this type for narrow landscape images
+    fields:
+      - name: image
+        type: url
+        example: "/images/3by2.png"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
+    width: "80%"
+
+  image3by2:
+    title: "image3by2"
+    description: |
+      Use this type for landscape images
+    fields:
+      - name: image
+        type: url
+        example: "/images/3by2.png"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
+    width: "80%"
+
+  image4by3:
+    title: "4by3"
+    description: |
+      Use this type for tv/computer images
+    fields:
+      - name: image
+        type: url
+        example: "/images/4by3.png"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
+    width: "80%"
+
+  image16by9:
+    title: "16x9"
+    description: |
+      Use this setting for wide photos like banners
+    fields:
+      - name: image
+        type: url
+        example: "/images/placeholder-16by9.svg"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
+    width: "80%"

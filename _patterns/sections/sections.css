@@ -1,0 +1,66 @@
+.brush {
+  color: #fff;
+  display: block;
+  }
+
+.brush h2 {
+  display: inline-block;
+  background-image: url("/images/icons_brush.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 1em;
+  min-width: 8em;
+}
+
+.see-more-link:hover, .see-more-link:hover h3{
+  color: var(--color-secondary);
+  font-size: 1.3362rem;
+}
+
+.see-more-link:hover .box {
+  border-color: var(--color-secondary);
+}
+
+.see-more {
+  animation: float 6s ease-in-out infinite;
+}
+
+.see {
+  width: 60%;
+  display: inline-block;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  top: 31%;
+  left: 50%;
+}
+
+.cloud-text {
+  z-index: 3;
+  transform: translate(-50%, -50%);
+  top: 84%;
+  left: 51%;
+  width: 100%;
+}
+
+.box {
+  border-style: solid;
+  border-color: #fff;
+  border-width: .1rem;
+  display: inline-block;
+}
+
+.subheader {
+  text-align: center;
+}
+
+.hyphen {
+  hyphens: manual;
+  orphans: 3;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .subheader {
+    text-align: right;
+  }
+
+}

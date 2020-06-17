@@ -1,0 +1,54 @@
+title: "Cards"
+description: |
+  The form can be used when creating a product description. Use corresponding icon with product description
+
+patterns:
+  figure:
+    title: "figure with caption"
+    description: |
+      Use this type of card for products
+    fields:
+      - name: title
+        type: string
+        example: "Figure header"
+      - name: details
+        type: string
+        example: "Figure description"
+      - name: image
+        type: url
+        example: "/images/placeholder-1by1.svg"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: aria-label
+        type: string
+        example: "Assign the description of an element to other elements on the page"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
+    width: "20em"
+
+  image-card:
+    title: "Image Card"
+    description: |
+      Use this type of card on the indext to direct user to project overview page
+    fields:
+      - name: title
+        type: string
+        example: "Portfolio Piece"
+      - name: image
+        type: url
+        example: "/images/placeholder-1by1.svg"
+      - name: url
+        type: url
+        example: "/about/"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: aria-label
+        type: string
+        example: "Assign the description of an element to other elements on the page"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
+    width: "20em"

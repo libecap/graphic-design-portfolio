@@ -1,0 +1,93 @@
+title: "Banner"
+description: |
+  Use for call to action and hero banners
+
+patterns:
+  main-banner:
+    title: "Main"
+    description: |
+      Use this banner for the home page
+    fields:
+      - name: heading
+        type: string
+        example: "Cap Libecap"
+      - name: text
+        type: string
+        example: "Graphic Design"
+      - name: button_text
+        type: string
+        example: "contact"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false
+      - name: banner_img
+        type: url
+        example: "/images/home-banner.jpg"
+
+  image-banner:
+    title: "Illustration"
+    description: |
+      Use this banner instead of a background image banner
+    fields:
+      - name: heading
+        type: string
+        example: "Cap Libecap"
+      - name: text
+        type: string
+        example: "Graphic Design"
+      - name: button_text
+        type: string
+        example: "contact"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false
+
+  hero-banner:
+    title: "hero"
+    description: |
+      Use this banner for secondary page. it is slightly shorter to show the content below
+    fields:
+      - name: heading
+        type: string
+        example: "Cap Libecap"
+      - name: text
+        type: string
+        example: "Graphic Design"
+      - name: button_text
+        type: string
+        example: "contact"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false
+      - name: banner_img
+        type: url
+        example: "/images/about.jpg"
+
+  404-banner:
+    title: "404"
+    description: |
+      Use this banner for the 404 page.
+    fields:
+      - name: heading
+        type: string
+        example: "Cap Libecap"
+      - name: text
+        type: string
+        example: "Graphic Design"
+      - name: button_text
+        type: string
+        example: "contact"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false
+      - name: banner_img
+        type: url
+        example: "/images/ruben.jpg"

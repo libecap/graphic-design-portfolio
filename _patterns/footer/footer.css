@@ -1,0 +1,60 @@
+.social {
+  font-weight: 600;
+}
+.footer-contact {
+  color: #fff;
+}
+
+.contentinfo {
+  background-color: #4e5f77;
+
+  /* background-image: url("../images/footer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: -32.5em 10em; */
+}
+
+.contentinfo li {
+  color: #fff;
+}
+
+
+.footer:hover {
+  color: #fff;
+  font-weight: 600;
+  background-image: url("/images/icons_brush.svg");
+  background-repeat: no-repeat;
+  background-size: 100% .75em;
+  min-width: 8em;
+  background-position: center;
+}
+
+.copyright li {
+  color: #fff;
+}
+
+.social li {
+  display: block;
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  .social {
+    margin: auto;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .social {
+    text-align: center;
+  }
+
+  .social li {
+    width: 24%;
+  }
+
+}

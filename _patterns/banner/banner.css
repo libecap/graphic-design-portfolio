@@ -1,0 +1,288 @@
+.container {
+  height: 100vh;
+}
+
+.img-banner {
+  color: #fff;
+  height: 100vh;
+  /* background-image: url("../images/test.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll; */
+}
+
+.main-banner {
+  color: #fff;
+  height: 100vh;
+  background-image: url("../images/home-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: top-right;
+}
+
+.lost-banner {
+  color: #fff;
+  height: 100vh;
+  background-image: url("../images/home-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
+.image-title {
+  height: 100vh;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  width: 80%;
+  top: 25%;
+}
+
+.logo-test {
+  width: 20%;
+  display: inline-block;
+}
+
+.hero-banner {
+  color: var(--color-secondary);
+  height: 80vh;
+  background-image: url("../images/about.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  /* background-position: left bottom; */
+  background-position: -20px 0px;
+  overflow: hidden;
+  z-index: -2;
+}
+
+/* .banner-title {
+  height: 100vh;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  width: 80%;
+  /*background: var(--background-text) center center / 300px auto no-repeat;*/
+} */
+.banner-title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 80vh;
+}
+.hero-title {
+  text-align: right;
+  position: fixed;
+  left: 48%;
+  transform: translateX(-50%);
+  top: 21%;
+}
+
+.lost-position {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 11%;
+}
+
+/* .main-title {
+  text-align: right;
+  position: absolute;
+  left: 17%;
+  transform: translateX(-50%);
+  top: 17%;
+} */
+
+.lost-title {
+  display: inline-block;
+  font-size: 5rem;
+}
+
+.title {
+  display: inline-block;
+  font-size: 3rem;
+  line-height: .75;
+  color: #639d98;
+}
+
+.portfolio {
+  display: inline-block;
+  font-size: 3.5rem;
+  line-height: .85;
+  color: #9bb0ce;
+  /* position: absolute;
+  left: 50%;
+  transform: translateX(-50%); */
+  /* transform: rotate(-90deg); */
+}
+
+.subhead {
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: .75;
+  color: var(--color-orange);
+}
+
+.logo, .menu {
+  text-align: center;
+}
+
+.cloud {
+  z-index: 10;
+  /* position: absolute; */
+  /* left: 29%;
+  top: 14%; */
+  width: 100%;
+  height: 100vh;
+  /* transform: translatey(0px); */
+  /* transform: translate(-50%, -50%); */
+  animation: float 6s ease-in-out infinite;
+}
+
+.cloud .img {
+  width: 47%;
+  z-index: 1;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 36%;
+  left: 50%;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@media only screen and (min-width: 25em) {
+
+  .hero-banner {
+    background-position: 0px 20px;
+  }
+
+  .main-title {
+    left: 41%;
+    top: 18%;
+    width: 67%;
+  }
+
+}
+
+@media only screen and (min-width: 28em) {
+
+  .portfolio {
+    transform: rotate(0deg);
+    font-size: 4em;
+  }
+
+  .hero-title {
+    left: 48%;
+    top: 21%;
+  }
+
+  .hero-banner {
+    background-position: 0px 20px;
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+
+  .main-title {
+    left: 38%;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .title {
+    font-size: 4.2rem;
+  }
+
+  .subhead {
+    font-size: 2.4238rem;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+  .menu {
+    text-align: right;
+  }
+
+  .portfolio {
+    font-size: 7em;
+  }
+
+  .hero-banner {
+    background-position: 0px 20px;
+  }
+
+  .main-title {
+    left: 16%;
+    width: 100%
+  }
+
+}
+
+@media only screen and (min-width: 45em) {
+
+  .hero-banner {
+    background-position: bottom left;
+  }
+
+  .main-title {
+    left: 25%;
+    width: 70%;
+  }
+
+  .lost-title {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .hero-banner {
+    background-position: bottom left;
+  }
+
+  .main-title {
+    left: 21%;
+  }
+
+  .portfolio {
+    font-size: 13em;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+
+  .main-title {
+    left: 21%;
+    top: 18%;
+  }
+
+  .title {
+    font-size: 4.982rem;
+  }
+
+  .subhead {
+    font-size: 3.4238rem;
+  }
+
+}

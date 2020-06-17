@@ -1,0 +1,123 @@
+title: "Sections"
+description: |
+  To help seperate content into their own categories
+
+patterns:
+  project-brief:
+    fields:
+      - name: title
+        type: string
+        example: "Subheader"
+      - name: details
+        type: string
+        example: "a brief description"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: aria-label
+        type: string
+        example: "Assign the description of an element to other elements on the page"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
+      - name: mock-up
+        type: url
+        example: "/images/3by2.png"
+      - name: image
+        type: url
+        example: "/images/placeholder-1by1.svg"
+    title: "Project Brief"
+    description: |
+      Use this layout for the project brief and description
+    width: "80%"
+
+
+  text-and-image:
+    title: "text and image"
+    description: |
+      Use this type of card for image accompanying text
+    fields:
+      - name: title
+        type: string
+        example: "Subheader"
+      - name: details
+        type: string
+        example: "A short description"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: aria-label
+        type: string
+        example: "Assign the description of an element to other elements on the page"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
+    width: "80%"
+
+  image-text-inline:
+    title: "text and image inline at medium and large sizes"
+    description: |
+      Use this type of card for image accompanying text
+    fields:
+      - name: title
+        type: string
+        example: "subheader"
+      - name: details
+        type: string
+        example: "A short description"
+      - name: image
+        type: url
+        example: "/images/placeholder-1by1.svg"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: aria-label
+        type: string
+        example: "Assign the description of an element to other elements on the page"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
+    width: "80%"
+
+  subheader-text:
+    title: "subheader and text inline at medium and large sizes"
+    description: |
+      Use this type of card for header to be inline with accompanying text
+    fields:
+      - name: title
+        type: string
+        example: "Sketches"
+      - name: details
+        type: string
+        example: "This is a look at the process I took to explore concepts and refine ideas"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: aria-label
+        type: string
+        example: "Assign the description of an element to other elements on the page"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
+    width: "80%"
+
+  see-more:
+    title: "See More Work"
+    description: |
+      Use this for the bottom of the accompanying pages to redirect to work section
+    fields:
+      - name: title
+        type: string
+        example: "See More Work"
+      - name: image
+        type: url
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: aria-label
+        type: string
+        example: "Assign the description of an element to other elements on the page"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
+    width: "80%"

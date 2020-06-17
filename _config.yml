@@ -1,0 +1,32 @@
+permalink: pretty
+theme: jekyll_patternbot
+patternbot:
+  title: Cap Libecap
+  description: |
+    Graphic Designer based in Ottawa, Ontario.
+  font_url: "https://use.typekit.net/fgq6wuf.css"
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the website's primary header & footer.
+  colors:
+    background: "--color-background"
+    accent: "--color-primary"
+    patterns:
+      brand.logos: "--color-secondary"
+  rationales:
+    typefaces.primary: |
+      Kepler extended is used because it has a heavier weight and slightly more spacing between the characters, making it a good typeface to use on a dark background.
+    colors.primary: |
+      The primary colour is white. This is so there is high contrast with the text and background colour.
+    colors.secondary: |
+      The secondary colour is a kind of turquoise just to be used occasionally for accents
+    colors.additional: |
+      These colours are used to aid and enhance the primary and secondary colours.
+collections:
+    products:
+        output: true
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product
