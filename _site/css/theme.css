@@ -1,0 +1,140 @@
+:root {
+  --color-primary: #000;
+  --color-secondary: #4e5f77;
+  --color-secondary-light: #000;
+  --color-orange-light: #000;
+  --color-orange: #000;
+  --color-accent: #fbc490;
+  --color-background: rgba(0, 0, 0, .4);
+  --background-text: url("../images/texture-text.png");
+  --background-image: url("../images/bg-noise.png");
+  /* --font-primary: kepler-std-extended, serif; */
+  --font-primary: Inter, sans-serif;
+  --font-secondary: 'Work Sans', sans-serif;
+}
+
+
+@supports (font-variation-settings: 'wdth' 200) {
+  @font-face {
+    /* https://github.com/TypeNetwork/Amstelvar */
+    font-family: Inter;
+    src: url('../fonts/inter-variableFont_slnt,wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .font-Inter {
+    font-family: Inter;
+    font-variation-settings: 'wdth' 400, 'wght' 98;
+  }
+}
+
+html {
+  font-family: var(--font-primary);
+  color: #000;
+  background-color: #9bb0ce;
+  font-display: swap
+ }
+
+img {
+  border-radius: 10%;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.border {
+  border: 2px solid;
+  border-radius: 10%;
+}
+
+.gold {
+  color: var(--color-accent);
+}
+
+main {
+  background-image: var(--background-text):
+}
+
+h1 {
+  font-family: var(--font-primary);
+  font-weight: 900;
+  color: var(--color-primary);
+}
+
+h2 {
+  color: var(--color-primary);
+  font-weight: 900;
+}
+
+h3, h4 {
+  font-family: var(--font-primary);
+  font-weight: 300;
+  color: var(--color-orange);
+}
+
+h5, h6 {
+  font-family: var(--font-primary);
+  font-weight: 500;
+}
+
+p {
+  font-family: var(--font-secondary);
+  /* font-weight: 300;
+  letter-spacing: .25px; */
+}
+cite {
+  font-family: var(--font-secondary);
+  font-weight: 900;
+}
+
+mark {
+  background-color: var(--color-accent);
+}
+a {
+  color: #e2e2e2;
+}
+
+.hover:hover {
+  color: var(--color-secondary);
+}
+
+b {
+  font-family: var(--font-primary);
+  font-weight: bold;
+}
+
+ol, ul, dl, q, th {
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+}
+
+dd {
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+}
+
+dt {
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+
+}
+
+cite {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+}
+
+.skip-links a {
+  position: absolute;
+  top: -10em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+a:focus {
+  outline: 3px solid #ffbd94;
+}
